@@ -1,0 +1,272 @@
+.box-tab-home {
+    width: 100%;
+    display: inline-block;
+    position: relative;
+    background: #F0F0F0;
+}
+
+.box-tab-home .container {
+    position: relative;
+}
+
+.box-tab-home .menu-tab {
+    width: 100%;
+    position: absolute;
+    top: -50px;
+    left: 0;
+    z-index: 1;
+    height: 50px;
+    padding: 0 15px;
+}
+
+.box-tab-home .menu-tab ul {
+    margin: 0 -5px;
+    padding: 0;
+}
+
+.box-tab-home .menu-tab li {
+    width: 33.3333%;
+    float: left;
+    padding: 0 5px;
+    list-style: none;
+}
+
+.box-tab-home .menu-tab li a {
+    background: rgba(0, 0, 0, .5);
+    border-radius: 4px 4px 0 0;
+    height: 50px;
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 50px;
+}
+
+.box-tab-home .menu-tab li a h2 {
+    font-size: 20px;
+    line-height: 50px;
+}
+
+.slide-selling-brand {
+    width: 100%;
+    display: inline-block;
+    position: relative;
+}
+
+.slide-selling-brand .heading {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.heading {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #222;
+    margin: 0 0 24px;
+}
+
+.content-box .heading {
+    margin-top: 25px;
+}
+
+.slide-selling-brand .box-list-slide {
+    position: relative;
+}
+
+.btn-button.btn-prev {
+    left: 0;
+}
+
+.btn-button .icon-left-open-big, .btn-button .icon-right-open-big {
+    z-index: 1;
+    top: 80px;
+    font-weight: 400;
+    font-size: 36px;
+    color: #888;
+    cursor: pointer;
+    border: 0;
+    background-color: transparent;
+}
+
+.slide-selling-brand .btn-button i:before {
+    width: auto;
+    margin: 0;
+    line-height: normal;
+}
+
+.icon-right-open-big:before {
+    content: '\e807';
+}
+
+.slide-selling-brand .box-list-slide .list-slide {
+    overflow: hidden;
+}
+
+.swiper-container {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.slide-selling-brand .slide .item {
+    width: 190px;
+    height: 140px;
+    background: #FFF;
+    border: 1px solid #E1E1E1;
+    border-left: 0;
+    padding: 10px;
+}
+
+.brandall-car .i-toyota span {
+    background-position: -136px -1125px;
+}
+
+.brandall-car span {
+    background-image: url(https://img1.oto.com.vn/Static/Images/sprite-logobrand-v3-7.png?v=1);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    display: inline-block;
+    font-size: 14px;
+    height: 0;
+    padding-top: 78px;
+    text-align: center;
+    width: 136px;
+    color: #222;
+    line-height: 14px;
+}
+
+.slide-selling-brand .brandall-car .item h3, .slide-selling-brand .brandall-car .item p {
+    line-height: 19px;
+    margin: 6px 0 0;
+    font-size: 16px;
+}
+
+.brandall-car .item h2, .brandall-car .item h3 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.brandall-car span .h3, .brandall-car span h3 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 14px;
+}
+
+.box-tab-home .content-tab {
+    width: 100%;
+    display: inline-block;
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+
+.list-item-car {
+    width: 100%;
+    display: inline-block;
+}
+
+.list-item-car:after, .list-item-car:before {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.row {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col, .col-12, .col-2, .col-3, .col-4, .col-6, .col-8 {
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+}
+
+.list-item-car .item {
+    width: 100%;
+    float: left;
+    background: #fff;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.box-tab-home .list-item-car .item .photo {
+    display: block;
+}
+
+#homepage-box-video.bg-video .big-video .big-video .image, #homepage-box-video.bg-video .row, .big-video .image, .box-tab-home .list-item-car .item .photo, .box-video-home, .icon-gift {
+    position: relative;
+}
+
+.box-tab-home .list-item-car .item .photo {
+    position: relative;
+    display: block;
+}
+
+.list-item-car .item .photo {
+    float: left;
+    width: 100%;
+}
+
+.list-item-car .item .photo a {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+.rt iframe, .rt img, .rt video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.list-item-car .item .info {
+    width: 100%;
+    float: left;
+    padding: 12px 15px;
+    border: 1px solid #E1E1E1;
+    border-top: 0;
+    min-height: 190px;
+}
+
+.list-item-car .item .box-neo {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    width: 100%;
+    height: 30px;
+    display: none;
+    padding: 0 7px;
+    margin-bottom: 10px;
+}
+
+.clearfix:after, .container:after {
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden
+}
+
+.swiper-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+
+}

@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 100%;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+body {
+    margin: 0;
+    font-family: Roboto,Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    color: #222;
+    min-width: 1008px;
+}
+body, button, h1, h2, h3, h4, h5, h6, input, select, textarea {
+    font-family: Roboto,Arial,Helvetica,sans-serif;
+}
+.pdt-per-74 {
+    padding-top: 74.5%;
+}
+.rt {
+    height: 0;
+    position: relative;
+    display: block;
+}
+.rt {
+    height: 0;
+    position: relative;
+    display: block;
+}
+.pdt-per-74 {
+    padding-top: 74.5%;
+}
+a {
+    text-decoration: none;
+}
+img {
+    border: 0;
+    max-width: 100%;
+    vertical-align: middle;
+}
